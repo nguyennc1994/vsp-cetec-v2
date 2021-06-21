@@ -57,7 +57,7 @@
     <section class="services">
         <div class="container">
             <div class="row">
-                {{ render_widget('post-listing',['catalog':'category','category':[49],'limit':10],['viewsDir': widgets_volt,'view':'list-linhvuc']) }}
+                {{ render_widget('post-listing',['catalog':'category','category':[2],'limit':10],['viewsDir': widgets_volt,'view':'list-linhvuc']) }}
             </div>
 
         </div>
@@ -74,7 +74,7 @@
             <div class="row">
                 <div class="projects">
                     <div id="owl-recent">
-                        {{ render_widget('post-listing',['catalog':'category','category':[49],'limit':10],['viewsDir': widgets_volt,'view':'list-duannb']) }}
+                        {{ render_widget('post-listing',['catalog':'category','category':[6],'limit':10],['viewsDir': widgets_volt,'view':'list-duannb']) }}
                     </div>
                 </div>
             </div>
