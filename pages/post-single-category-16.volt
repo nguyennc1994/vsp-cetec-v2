@@ -4,8 +4,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Blog Right Sidebar</h1>
-                    <span>Post-ironic scenester four dollar toast</span>
+                    <h1>Tổng quan</h1>
+{#                    <span>Post-ironic scenester four dollar toast</span>#}
                 </div>
             </div>
         </div>
@@ -14,6 +14,49 @@
     <section class="blog-classic">
         <div class="container">
             <div class="row">
+                <div class="col-md-4">
+                    <div class="side-bar">
+                        <div class="sidebar-widget">
+                            <h4>Latest Posts</h4>
+                            <div class="line-dec"></div>
+                            <div class="latest-item">
+                                <img src="http://placehold.it/80x80" alt="">
+                                <div class="right-content">
+                                    <a href="single-blog.html"><h6>Pellentesque sapien velit</h6></a>
+                                    <span><i class="fa fa-calendar"></i>25 October, 2015</span>
+                                </div>
+                            </div>
+                            <div class="latest-item">
+                                <img src="http://placehold.it/80x80" alt="">
+                                <div class="right-content">
+                                    <a href="single-blog.html"><h6>Pellentesque sapien velit</h6></a>
+                                    <span><i class="fa fa-calendar"></i>25 October, 2015</span>
+                                </div>
+                            </div>
+                            <div class="latest-item last-latest">
+                                <img src="http://placehold.it/80x80" alt="">
+                                <div class="right-content">
+                                    <a href="single-blog.html"><h6>Pellentesque sapien velit</h6></a>
+                                    <span><i class="fa fa-calendar"></i>25 October, 2015</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-widget">
+                            <h4>Twitter Feeds</h4>
+                            <div class="line-dec"></div>
+                            <div class="twitter-item">
+                                <i class="fa fa-twitter"></i>
+                                <p><em>Innovation</em>Donec odio magna, varius id nisi hendrerit enim. Praesent gravida malesuada sodaer integer</p>
+                                <span>1 week ago</span>
+                            </div>
+                            <div class="twitter-item">
+                                <i class="fa fa-twitter"></i>
+                                <p><em>Innovation</em>Donec odio magna, varius id nisi hendrerit enim. Praesent gravida malesuada sodaer integer</p>
+                                <span>1 week ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-8">
                     <div class="blog-posts">
                         <div class="blog-post">
@@ -99,81 +142,6 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="side-bar">
-                        <div class="search-box">
-                            <input type="text" class="search" name="s" placeholder="Search here..." value="">
-                        </div>
-                        <div class="sidebar-widget">
-                            <h4>Categories</h4>
-                            <div class="line-dec"></div>
-                            <ul>
-                                <li>::   General Contractor (4)</li>
-                                <li>::   Construction (2)</li>
-                                <li>::   Business (3)</li>
-                                <li>::   Interior Design (5)</li>
-                                <li>::   Remodeling (7)</li>
-                            </ul>
-                        </div>
-                        <div class="sidebar-widget">
-                            <h4>Latest Posts</h4>
-                            <div class="line-dec"></div>
-                            <div class="latest-item">
-                                <img src="http://placehold.it/80x80" alt="">
-                                <div class="right-content">
-                                    <a href="single-blog.html"><h6>Pellentesque sapien velit</h6></a>
-                                    <span><i class="fa fa-calendar"></i>25 October, 2015</span>
-                                </div>
-                            </div>
-                            <div class="latest-item">
-                                <img src="http://placehold.it/80x80" alt="">
-                                <div class="right-content">
-                                    <a href="single-blog.html"><h6>Pellentesque sapien velit</h6></a>
-                                    <span><i class="fa fa-calendar"></i>25 October, 2015</span>
-                                </div>
-                            </div>
-                            <div class="latest-item last-latest">
-                                <img src="http://placehold.it/80x80" alt="">
-                                <div class="right-content">
-                                    <a href="single-blog.html"><h6>Pellentesque sapien velit</h6></a>
-                                    <span><i class="fa fa-calendar"></i>25 October, 2015</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sidebar-widget">
-                            <h4>Twitter Feeds</h4>
-                            <div class="line-dec"></div>
-                            <div class="twitter-item">
-                                <i class="fa fa-twitter"></i>
-                                <p><em>Innovation</em>Donec odio magna, varius id nisi hendrerit enim. Praesent gravida malesuada sodaer integer</p>
-                                <span>1 week ago</span>
-                            </div>
-                            <div class="twitter-item">
-                                <i class="fa fa-twitter"></i>
-                                <p><em>Innovation</em>Donec odio magna, varius id nisi hendrerit enim. Praesent gravida malesuada sodaer integer</p>
-                                <span>1 week ago</span>
-                            </div>
-                        </div>
-                        <div class="sidebar-widget">
-                            <h4>Tag Cloud</h4>
-                            <div class="line-dec"></div>
-                            <div class="tags">
-                                <ul>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Construction</a></li>
-                                    <li><a href="#">Responsive</a></li>
-                                    <li><a href="#">Workers</a></li>
-                                    <li><a href="#">Creative</a></li>
-                                    <li><a href="#">Portfolio</a></li>
-                                    <li><a href="#">Corporate</a></li>
-                                    <li><a href="#">WordPress</a></li>
-                                    <li><a href="#">Design</a></li>
-                                    <li><a href="#">Architecture</a></li>
-                                </ul>
                             </div>
                         </div>
                     </div>
