@@ -1,0 +1,26 @@
+{
+  "name":"orbit-resort",
+  "layouts": [
+    {
+      "name": "Orbit Resort",
+      "file": "default",
+      "default": true
+    },{
+      "name": "Sidebar Left",
+      "file": "index_sbl"
+    }
+  ],
+  "widget_areas": [
+    {
+      "name": "widget_area_1",
+      "before_widget": "",
+      "before_title": ""
+    },
+    {
+      "name": "widget_area_2"
+    },
+    {
+      "name": "widget_area_3"
+    }
+  ]
+}
