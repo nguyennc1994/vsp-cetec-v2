@@ -2099,7 +2099,7 @@ section.full-width .section-heading .line-dec {
 }
 #page-heading {
   margin-top: 115px;
-  background-image: url(http://placehold.it/1400x260);
+  /*background-image: url('/assets/images/funfact-bg.jpg');*/
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
