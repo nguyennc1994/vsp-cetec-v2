@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    {{ render_widget('post-listing',['catalog':'category','category':[42],'limit':10],['viewsDir': widgets_volt,'view':'list-gioithieu']) }}
+                    {{ render_widget('post-listing',['catalog':'category','category':[1],'limit':10],['viewsDir': widgets_volt,'view':'list-gioithieu']) }}
 
                 </div>
                 <div class="col-md-8">
