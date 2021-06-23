@@ -3,22 +3,24 @@
         <div class="row">
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="about-us">
-                    <img src="{{theme_path}}/assets/images/logo-2.png" alt="">
-                    <p>Lorem ipsum dolor consectetur adipiscing elit. Donec et dapibus vel uis pretium augue sed metus eleifend acces.<br><br>Vestibulum ultrices fermentum velit, vel tempus augue hendrerit at.</p>
+                    <img src="{{theme_path}}/assets/images/logo-footer.png" alt="">
+                    <div>
+                        <h5 style="color: #FFFFFF; line-height: 1.8">CÔNG TY CP KỸ THUẬT – XÂY DỰNG & CÔNG NGHỆ CETEC</h5>
+                        <p style="color: #FFFFFF; margin-top: 10px">Trụ sở chính: Tầng 6, tòa nhà HKC, 285 Đội Cấn, Ba Đình, Hà Nội</p>
+                   <p style="color: #FFFFFF; margin-top: 10px">VPDD: 166 Nguyễn Xiển, Thanh Xuân, Hà Nội</p>
+                        <p style="color: #FFFFFF; margin-top: 10px">Điện thọai: 039.304.8288</p>
+                        <p style="color: #FFFFFF; margin-top: 10px">Email: contact@cetec.vn</p>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="company-pages">
-                    <h2>Compnay Pages</h2>
+                    <h2>Company Pages</h2>
                     <ul class="first-list">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Services</a></li>
+                        <li><a href="/"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                        <li><a href="/{{ language }}/c/category-"><i class="fa fa-angle-double-right"></i>Services</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i>Projects</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i>Blog</a></li>
-                    </ul>
-                    <ul class="second-list">
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Shortcodes</a></li>
-                        <li><a href="#"><i class="fa fa-angle-double-right"></i>Contact Us</a></li>
                     </ul>
                 </div>
             </div>
