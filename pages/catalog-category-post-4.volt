@@ -25,53 +25,41 @@
         <div class="blog-section">
             <div class="container">
                 <div class="row">
-
-                        <div class="row">
-                            {% for post in items %}
-                                <div class="col-sm-4 col-md-4 col-12">
-                                    <div class="blog-post-slider__single-slide blog-post-slider__single-slide--grid-view">
-                                        <div class="blog-post-slider__image section-space--bottom--30">
-                                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><img
-                                                        src="{{ post.data.image[0].url }}" class="img-fluid" alt=""></a>
-                                        </div>
-                                        <div class="blog-post-slider__content">
-                                            <p class="post-date"> {{ date('d/m/Y',strtotime(item.published_on)) }}</p>
-                                            <h3 class="post-title">
-                                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">{{ post.data.title|getAttribute(language) }}</a>
-                                            </h3>
-                                            <p class="post-excerpt">{{ post.data.desc|getAttribute(language)|striptags }}</p>
-                                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"
-                                               class="see-more-link">CHI TIẾT</a>
-                                        </div>
-                                    </div>
+                    {% for post in items %}
+                        <div class="col-sm-4 col-md-4 col-12">
+                            <div class="blog-post-slider__single-slide blog-post-slider__single-slide--grid-view">
+                                <div class="blog-post-slider__image section-space--bottom--30">
+                                    <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><img
+                                                src="{{ post.data.image[0].url }}" class="img-fluid" alt=""></a>
                                 </div>
-                            {% endfor %}
-
-                        </div>
-
-                        <div class="row ">
-                            <div class="col">
-                                <ul class="page-pagination section-space--top--30">
-                                    {% if(pages > 0) %}
-                                        {% for i in 1..pages %}
-                                            <li>
-                                                <a href="/{{ language }}/c/category-{{ category }}/{{ slug }}-p{{ i }}.html">{{ i }}</a>
-                                            </li>
-                                        {% endfor %}
-                                    {% endif %}
-                                </ul>
+                                <div class="blog-post-slider__content">
+                                    <p class="post-date"> {{ date('d/m/Y',strtotime(item.published_on)) }}</p>
+                                    <h3 class="post-title">
+                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">{{ post.data.title|getAttribute(language) }}</a>
+                                    </h3>
+                                    <p class="post-excerpt">{{ post.data.desc|getAttribute(language)|striptags }}</p>
+                                    <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"
+                                       class="see-more-link">CHI TIẾT</a>
+                                </div>
                             </div>
                         </div>
+                    {% endfor %}
                 </div>
-
+                <div class="row ">
+                    <div class="col">
+                        <ul class="page-pagination section-space--top--30">
+                            {% if(pages > 0) %}
+                                {% for i in 1..pages %}
+                                    <li>
+                                        <a href="/{{ language }}/c/category-{{ category }}/{{ slug }}-p{{ i }}.html">{{ i }}</a>
+                                    </li>
+                                {% endfor %}
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <!--Service section end-->
     </div>
-
-
-
-
-
-
 {% endblock %}
