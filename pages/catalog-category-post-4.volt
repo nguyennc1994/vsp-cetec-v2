@@ -21,12 +21,12 @@
     </div>
     <!--====================  End of breadcrumb area  ====================-->
 
-    <div class="page-wrapper section-space--inner--120">
-        <div class="blog-section">
-            <div class="container">
+    <section class="projects-page">
+    <div class="container">
                 <div class="row">
+                    <div class="projects">
                     {% for post in items %}
-                            <div class="projects">
+
                                 <div class="mix second-row col-md-4 category-2 category-3">
                                     <div class="thumb-holder">
                                         <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div></a>
@@ -41,8 +41,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
                     {% endfor %}
+                    </div>
                 </div>
                 <div class="row ">
                     <div class="col">
@@ -58,7 +58,5 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Service section end-->
-    </div>
+        </section>
 {% endblock %}
