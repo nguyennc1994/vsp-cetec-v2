@@ -26,7 +26,6 @@
             <div class="container">
                 <div class="row">
                     {% for post in items %}
-                        <div class="row">
                             <div class="projects">
                                 <div class="mix second-row col-md-4 category-2 category-3">
                                     <div class="thumb-holder">
@@ -43,7 +42,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     {% endfor %}
                 </div>
                 <div class="row ">
