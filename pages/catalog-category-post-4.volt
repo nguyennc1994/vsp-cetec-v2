@@ -26,7 +26,6 @@
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-8 col-12 order-1 order-lg-2">
                         <div class="row">
                             {% for post in items %}
                                 <div class="col-sm-4 col-md-4 col-12">
@@ -63,7 +62,6 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
                 </div>
 
             </div>
