@@ -26,20 +26,21 @@
             <div class="container">
                 <div class="row">
                     {% for post in items %}
-                        <div class="col-sm-4 col-md-4 col-12">
-                            <div class="blog-post-slider__single-slide blog-post-slider__single-slide--grid-view">
-                                <div class="blog-post-slider__image section-space--bottom--30">
-                                    <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><img
-                                                src="{{ post.data.image[0].url }}" class="img-fluid" alt=""></a>
-                                </div>
-                                <div class="blog-post-slider__content">
-                                    <p class="post-date"> {{ date('d/m/Y',strtotime(item.published_on)) }}</p>
-                                    <h3 class="post-title">
-                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">{{ post.data.title|getAttribute(language) }}</a>
-                                    </h3>
-                                    <p class="post-excerpt">{{ post.data.desc|getAttribute(language)|striptags }}</p>
-                                    <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"
-                                       class="see-more-link">CHI TIẾT</a>
+                        <div class="row">
+                            <div class="projects">
+                                <div class="mix second-row col-md-4 category-2 category-3">
+                                    <div class="thumb-holder">
+                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div></a>
+                                        <div class="thumb-content">
+                                            <div class="thumb-link">
+                                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><i class="fa fa-plus"></i></a>
+                                            </div>
+                                            <div class="thumb-text">
+                                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><h4>{{ post.data.title|getAttribute(language) }}</h4></a>
+                                                <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
