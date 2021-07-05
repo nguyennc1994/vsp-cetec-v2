@@ -60,7 +60,7 @@
                         <div class="sidebar-widget">
                             <h4>Bài viết gần đây</h4>
                             <div class="line-dec"></div>
-                            {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':5],['viewsDir': widgets_volt,'view':'list-righcongtrinh']) }}
+                            {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':5],['viewsDir': widgets_volt,'view':'list-rightcongtrinh']) }}
                         </div>
                     </div>
                 </div>
