@@ -2,7 +2,7 @@
 {% block content %}
 
     <div id="page-heading"
-         style="background-image: url('http://cetec.vn/content/uploads/cms/2021/06/28/funfact-bg.jpg')">
+         style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-position: center; background-size: cover; height: 400px">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -17,7 +17,7 @@
                 <div class="col-md-8">
                     <div class="blog-posts">
                         <div class="blog-post">
-                            <div style="width: 60%; margin-left: 20%; background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-position: center; background-size: cover; height: 300px"></div>
+{#                            <div style="width: 60%; margin-left: 20%; background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-position: center; background-size: cover; height: 300px"></div>#}
                             <div class="down-content">
                                 <div class="right-cotent">
                                     <div>
