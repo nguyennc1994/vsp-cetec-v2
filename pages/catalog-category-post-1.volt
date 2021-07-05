@@ -68,8 +68,8 @@
 
                 <ul class="sidebar-list">
                   {{ render_widget('post-listing',['catalog':'category','category':[1],'limit':10],['viewsDir': widgets_volt,'view':'list-leftlv']) }}
-                  <li><a href="/{{ language }}/c/category-11/hoatdong-p1.html">Hoạt động công ty</a></li>
-                  <li><a href="/{{ language }}/c/category-13/kh-p1.html">Khách hàng - Đối tác</a></li>
+{#                  <li><a href="/{{ language }}/c/category-11/hoatdong-p1.html">Hoạt động công ty</a></li>#}
+{#                  <li><a href="/{{ language }}/c/category-13/kh-p1.html">Khách hàng - Đối tác</a></li>#}
                 </ul>
 
             </div>
