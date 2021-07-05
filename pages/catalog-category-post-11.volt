@@ -66,19 +66,19 @@
 
                 {# </div> #}
             </div>
-            <div class="row ">
-                <div class="col">
-                    <ul class="page-pagination section-space--top--30">
-                        {% if(pages > 0) %}
-                            {% for i in 1..pages %}
-                                <li>
-                                    <a href="/{{ language }}/c/category-{{ category }}/{{ slug }}-p{{ i }}.html">{{ i }}</a>
-                                </li>
-                            {% endfor %}
-                        {% endif %}
-                    </ul>
-                </div>
-            </div>
+{#            <div class="row ">#}
+{#                <div class="col">#}
+{#                    <ul class="page-pagination section-space--top--30">#}
+{#                        {% if(pages > 0) %}#}
+{#                            {% for i in 1..pages %}#}
+{#                                <li>#}
+{#                                    <a href="/{{ language }}/c/category-{{ category }}/{{ slug }}-p{{ i }}.html">{{ i }}</a>#}
+{#                                </li>#}
+{#                            {% endfor %}#}
+{#                        {% endif %}#}
+{#                    </ul>#}
+{#                </div>#}
+{#            </div>#}
         </div>
     </section>
 {% endblock %}
