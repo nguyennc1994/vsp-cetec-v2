@@ -38,9 +38,10 @@
                     </div>
                 </div>
                 {# <div class="projects"> #}
-                {% for post in items %}
+
                     <div class="col-md-8">
                         <div class="row">
+                            {% for post in items %}
                             <div class="col-md-4">
                                 <div class="thumb-holder">
                                     <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
@@ -59,9 +60,10 @@
                                     </div>
                                 </div>
                             </div>
+                            {% endfor %}
                         </div>
                     </div>
-                {% endfor %}
+
                 {# </div> #}
             </div>
             <div class="row ">
