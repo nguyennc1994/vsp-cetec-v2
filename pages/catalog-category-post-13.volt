@@ -42,7 +42,7 @@
                     <div class="col-md-8">
                         <div class="row">
                             {% for post in items %}
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="thumb-holder">
                                     <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
                                         <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: contain; background-position: center; height: 300px; background-repeat: no-repeat"></div>
