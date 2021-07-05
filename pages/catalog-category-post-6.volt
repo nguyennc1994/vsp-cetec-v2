@@ -27,7 +27,7 @@
                 <div class="projects">
                     {% for post in items %}
 
-                        <div class="mix second-row col-md-4 category-2 category-3">
+                        <div class="col-md-12">
                             <div class="thumb-holder">
                                 <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div></a>
                                 <div class="thumb-content">
