@@ -18,7 +18,7 @@
                     <div class="blog-posts">
                         <div class="blog-post">
                             <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}')"></div>
-                            <div class="down-content">
+                            <div class="down-content" style="float: right">
                                 <div class="date">
                                     <p><span>{{ date('d/m/Y',strtotime(item.published_on)) }}</span></p>
                                 </div>
