@@ -44,7 +44,7 @@
                             <div class="col-md-6">
                                 <div class="thumb-holder">
                                     <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
-                                        <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: contain; background-position: center; height: 300px; background-repeat: no-repeat"></div>
+                                        <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: contain; background-position: center; height: 150px; background-repeat: no-repeat"></div>
                                     </a>
 {#                                    <div class="thumb-content">#}
 {#                                        <div class="thumb-link">#}
