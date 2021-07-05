@@ -74,7 +74,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p>Innovation @ All rights reserved.</p>
+                <p>Cetec @ All rights reserved.</p>
             </div>
             <div class="col-md-6">
                 <ul>

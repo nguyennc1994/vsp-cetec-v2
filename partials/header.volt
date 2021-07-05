@@ -4,23 +4,23 @@
             <div class="col-md-6">
                 <div class="left-info">
                     <ul>
-                        <li><i class="fa fa-phone"></i>646-325-0357</li>
-                        <li><i class="fa fa-envelope-o"></i>innovation@domain.com</li>
-                        <li><i class="fa fa-clock-o"></i>Mon - Sat : 08:00 - 18:00</li>
+                        <li><i class="fa fa-phone"></i>039 304 8288</li>
+                        <li><i class="fa fa-envelope-o"></i>contact@cetec.vn</li>
+{#                        <li><i class="fa fa-clock-o"></i>Mon - Sat : 08:00 - 18:00</li>#}
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="social-icons">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+{#            <div class="col-md-6">#}
+{#                <div class="social-icons">#}
+{#                    <ul>#}
+{#                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+{#                        <li><a href="#"><i class="fa fa-behance"></i></a></li>#}
+{#                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+{#                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>#}
+{#                    </ul>#}
+{#                </div>#}
+{#            </div>#}
         </div>
     </div>
 </div>
