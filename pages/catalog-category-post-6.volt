@@ -26,21 +26,19 @@
             <div class="row">
                 <div class="projects">
                     {% for post in items %}
-
-                        <div class="col-md-12">
                             <div class="thumb-holder">
-                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div></a>
-                                <div class="thumb-content">
-                                    <div class="thumb-link">
-                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><i class="fa fa-plus"></i></a>
+                                <div class="row">
+                                    <div class="col-md-3 col-12">
+                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div></a>
                                     </div>
-                                    <div class="thumb-text">
-                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><h4>{{ post.data.title|getAttribute(language) }}</h4></a>
-                                        <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>
+                                    <div class="col-md-9 col-12 thumb-content">
+                                        <div class="thumb-text">
+                                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><h4>{{ post.data.title|getAttribute(language) }}</h4></a>
+                                            <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     {% endfor %}
                 </div>
             </div>
