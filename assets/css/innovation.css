@@ -1210,6 +1210,9 @@ footer .subscribe-us .accent-button {
 .blog-classic .blog-posts .blog-post .down-content .right-cotent ul li a {
   color: #e8aa00;
 }
+.blog-classic .blog-posts .blog-post .down-content .right-cotent {
+  width: 90%;
+}
 .blog-classic .blog-posts .blog-post .down-content .right-cotent ul li:first-child {
   margin-left: 0px;
 }
