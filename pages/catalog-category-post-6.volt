@@ -30,7 +30,7 @@
 
                                 <div class="row">
                                     <div class="col-md-3 col-12">
-                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div></a>
+                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 150px"></div></a>
                                     </div>
                                     <div class="col-md-9 col-12">
                                         <div class="thumb-text">
