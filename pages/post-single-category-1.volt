@@ -21,7 +21,6 @@
                         <h4>Giới thiệu</h4>
                         <div class="line-dec"></div>
                         <div class="latest-item">
-                            <img src="http://placehold.it/80x80" alt="">
                             <div class="right-content">
                                 {{ render_widget('post-listing',['catalog':'category','category':[1],'limit':10],['viewsDir': widgets_volt,'view':'list-leftlv']) }}
                             </div>
