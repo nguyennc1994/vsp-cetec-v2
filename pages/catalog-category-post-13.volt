@@ -24,24 +24,41 @@
     <section class="projects-page">
         <div class="container">
             <div class="row">
-                <div class="projects">
-                    {% for post in items %}
-                        <div class="col-md-6">
-                            <div class="thumb-holder">
-                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div></a>
-                                <div class="thumb-content">
-                                    <div class="thumb-link">
-                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><i class="fa fa-plus"></i></a>
-                                    </div>
-                                    <div class="thumb-text">
-                                        <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><h4>{{ post.data.title|getAttribute(language) }}</h4></a>
-                                        <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>
-                                    </div>
+                <div class="col-md-4">
+                    <div class="side-bar">
+                        <div class="sidebar-widget">
+                            <h4>Giới thiệu</h4>
+                            <div class="line-dec"></div>
+                            <div class="latest-item">
+                                <div class="right-content">
+                                    {{ render_widget('post-listing',['catalog':'category','category':[1],'limit':10],['viewsDir': widgets_volt,'view':'list-leftlv']) }}
                                 </div>
                             </div>
                         </div>
-                    {% endfor %}
+                    </div>
                 </div>
+                {# <div class="projects"> #}
+                {% for post in items %}
+                    <div class="col-md-4">
+                        <div class="thumb-holder">
+                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
+                                <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 300px"></div>
+                            </a>
+                            <div class="thumb-content">
+                                <div class="thumb-link">
+                                    <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><i
+                                                class="fa fa-plus"></i></a>
+                                </div>
+                                <div class="thumb-text">
+                                    <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
+                                        <h4>{{ post.data.title|getAttribute(language) }}</h4></a>
+                                    <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                {# </div> #}
             </div>
             <div class="row ">
                 <div class="col">
