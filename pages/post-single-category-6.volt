@@ -17,11 +17,8 @@
                 <div class="col-md-8">
                     <div class="blog-posts">
                         <div class="blog-post">
-                            <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}')"></div>
-                            <div class="down-content" style="float: right">
-                                <div class="date">
-                                    <p><span>{{ date('d/m/Y',strtotime(item.published_on)) }}</span></p>
-                                </div>
+{#                            <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}')"></div>#}
+                            <div class="down-content">
                                 <div class="right-cotent">
                                     <ul>
                                         <li><i class="fa fa-eye" aria-hidden="true"></i>
@@ -61,7 +58,7 @@
                         <div class="sidebar-widget">
                             <h4>Bài viết gần đây</h4>
                             <div class="line-dec"></div>
-                            {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':10],['viewsDir': widgets_volt,'view':'list-rightcongtrinh']) }}
+                            {{ render_widget('post-listing',['catalog':'category','category':[6],'limit':10],['viewsDir': widgets_volt,'view':'list-righttintuc']) }}
                         </div>
                     </div>
                 </div>
