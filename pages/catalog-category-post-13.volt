@@ -21,7 +21,8 @@
     </div>
     <!--====================  End of breadcrumb area  ====================-->
 
-    <section class="projects-page">
+
+    <section class="blog-classic">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -37,11 +38,9 @@
                         </div>
                     </div>
                 </div>
-                {# <div class="projects"> #}
-
-                    <div class="col-md-8">
-                        <div class="row">
-                            {% for post in items %}
+                <div class="col-md-8">
+                    <div class="row">
+                        {% for post in items %}
                             <div class="col-md-6">
                                 <div class="thumb-holder">
                                     <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
@@ -60,25 +59,10 @@
                                     </div>
                                 </div>
                             </div>
-                            {% endfor %}
-                        </div>
+                        {% endfor %}
                     </div>
-
-                {# </div> #}
+                </div>
             </div>
-{#            <div class="row ">#}
-{#                <div class="col">#}
-{#                    <ul class="page-pagination section-space--top--30">#}
-{#                        {% if(pages > 0) %}#}
-{#                            {% for i in 1..pages %}#}
-{#                                <li>#}
-{#                                    <a href="/{{ language }}/c/category-{{ category }}/{{ slug }}-p{{ i }}.html">{{ i }}</a>#}
-{#                                </li>#}
-{#                            {% endfor %}#}
-{#                        {% endif %}#}
-{#                    </ul>#}
-{#                </div>#}
-{#            </div>#}
         </div>
     </section>
 {% endblock %}
