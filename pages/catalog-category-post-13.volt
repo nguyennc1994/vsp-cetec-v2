@@ -46,17 +46,17 @@
                                     <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
                                         <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: contain; background-position: center; height: 300px; background-repeat: no-repeat"></div>
                                     </a>
-                                    <div class="thumb-content">
-                                        <div class="thumb-link">
-                                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><i
-                                                        class="fa fa-plus"></i></a>
-                                        </div>
-                                        <div class="thumb-text">
-                                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">
-                                                <h4>{{ post.data.title|getAttribute(language) }}</h4></a>
-                                            <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>
-                                        </div>
-                                    </div>
+{#                                    <div class="thumb-content">#}
+{#                                        <div class="thumb-link">#}
+{#                                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><i#}
+{#                                                        class="fa fa-plus"></i></a>#}
+{#                                        </div>#}
+{#                                        <div class="thumb-text">#}
+{#                                            <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html">#}
+{#                                                <h4>{{ post.data.title|getAttribute(language) }}</h4></a>#}
+{#                                            <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>#}
+{#                                        </div>#}
+{#                                    </div>#}
                                 </div>
                             </div>
                         {% endfor %}
