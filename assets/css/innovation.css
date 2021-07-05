@@ -1454,7 +1454,7 @@ footer .subscribe-us .accent-button {
 }
 .blog-classic .side-bar .sidebar-widget .latest-item h6 {
   display: inline-block;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
   font-size: 13px;
   font-family: 'Montserrat', sans-serif;
 }

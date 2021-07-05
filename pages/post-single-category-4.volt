@@ -17,7 +17,7 @@
                 <div class="col-md-8">
                     <div class="blog-posts">
                         <div class="blog-post">
-                            {#                            <div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}')"></div>#}
+                            <div style="width: 60%; margin-left: 20%; background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-position: center; background-size: cover; height: 300px"></div>
                             <div class="down-content">
                                 <div class="right-cotent">
                                     <div>
@@ -60,7 +60,7 @@
                         <div class="sidebar-widget">
                             <h4>Bài viết gần đây</h4>
                             <div class="line-dec"></div>
-                            {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':10],['viewsDir': widgets_volt,'view':'list-righttintuc']) }}
+                            {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':5],['viewsDir': widgets_volt,'view':'list-righcongtrinh']) }}
                         </div>
                     </div>
                 </div>
