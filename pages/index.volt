@@ -29,7 +29,7 @@
 {#                        <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="340" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0"><div class="line-dec"></div></div>#}
 {#                        <div class="tp-caption second-line lfb tp-resizeme start" data-x="left" data-hoffset="0" data-y="380" data-speed="1000" data-start="800" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">Là một nhà thầu có uy tín và năng lực trong lĩnh vực xây dựng, đã và đang được các chủ đầu tư và nhà thầu chính nước ngoài lựa chọn</div>#}
                         <div class="tp-caption first-banner-button sfb tp-resizeme start container" data-x="left" data-hoffset="0" data-y="450" data-speed="1000" data-start="2200" data-easing="Power4.easeOut" data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0">
-                            <a class="btn btn-success" href="/{{ language }}/contact.html">Liên hệ</a>
+{#                            <a class="btn btn-success" href="/{{ language }}/contact.html">Liên hệ</a>#}
                         </div>
                     </li>
                 </ul>
