@@ -32,7 +32,7 @@
                                 <div class="line-dec"></div>
                                 <div class="latest-item">
                                     <div class="right-content">
-                                        {{ render_widget('post-listing',['catalog':'category','category':[1],'limit':10],['viewsDir': widgets_volt,'view':'list-leftlv']) }}
+                                        {{ render_widget('post-listing',['catalog':'category','category':[1],'limit':10],['viewsDir': widgets_volt,'view':'list-lefttuyendung']) }}
                                     </div>
                                 </div>
                             </div>
@@ -45,10 +45,10 @@
                                     {% for post in items %}
 
                                         <div class="row" style="margin-bottom: 40px">
-                                            <div class="col-md-3 col-12">
-                                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 150px"></div></a>
-                                            </div>
-                                            <div class="col-md-9 col-12">
+{#                                            <div class="col-md-3 col-12">#}
+{#                                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 150px"></div></a>#}
+{#                                            </div>#}
+                                            <div class="col-md-12 col-12">
                                                 <div class="thumb-text" style="margin-top: 50px;">
                                                     <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><h4>{{ post.data.title|getAttribute(language) }}</h4></a>
                                                     <span><i class="fa fa-folder-o"></i>{{ post.data.desc|getAttribute(language)|striptags }}</span>
