@@ -1,25 +1,16 @@
 {% extends 'layouts/default.volt' %}
 {% block content %}
 
-    <!--====================  breadcrumb area ====================-->
-    <div class="breadcrumb-area bg-img" data-bg="{{ theme_path }}/assets/img/backgrounds/funfact-bg.jpg">
+    <div id="page-heading" style="background-image: url('http://cetec.vn/content/uploads/cms/2021/06/28/funfact-bg.jpg')">
         <div class="container">
             <div class="row">
-                <div class="col">
-
-                    <div class="page-banner text-center">
-                        <h1>{{ category_title | getAttribute(language) }}</h1>
-                        <ul class="page-breadcrumb">
-                            <li><a href="/">Trang chủ</a></li>
-                            <li>{{ category_title | getAttribute(language) }}</li>
-                        </ul>
-                    </div>
-
+                <div class="col-md-12">
+                    <h1>{{ category_title | getAttribute(language) }}</h1>
+                    {#                    <span>Post-ironic scenester four dollar toast</span>#}
                 </div>
             </div>
         </div>
     </div>
-    <!--====================  End of breadcrumb area  ====================-->
 
     <div class="page-wrapper section-space--inner--120">
         <div class="blog-section">
