@@ -1,25 +1,16 @@
 {% extends 'layouts/default.volt' %}
 {% block content %}
 
-    <!--====================  breadcrumb area ====================-->
-    <div class="breadcrumb-area bg-img" data-bg="{{ theme_path }}/assets/img/backgrounds/funfact-bg.jpg">
+    <div id="page-heading" style="background-image: url('http://cetec.vn/content/uploads/cms/2021/06/28/funfact-bg.jpg')">
         <div class="container">
             <div class="row">
-                <div class="col">
-
-                    <div class="page-banner text-center">
-                        <h1>{{ category_title | getAttribute(language) }}</h1>
-                        <ul class="page-breadcrumb">
-                            <li><a href="/">Trang chủ</a></li>
-                            <li>{{ category_title | getAttribute(language) }}</li>
-                        </ul>
-                    </div>
-
+                <div class="col-md-12">
+                    <h1>{{ category_title | getAttribute(language) }}</h1>
+                    {#                    <span>Post-ironic scenester four dollar toast</span>#}
                 </div>
             </div>
         </div>
     </div>
-    <!--====================  End of breadcrumb area  ====================-->
 
     <div class="page-wrapper section-space--inner--120">
         <div class="blog-section">
@@ -45,9 +36,9 @@
                                     {% for post in items %}
 
                                         <div class="row" style="margin-bottom: 40px">
-{#                                            <div class="col-md-3 col-12">#}
-{#                                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 150px"></div></a>#}
-{#                                            </div>#}
+                                            {#                                            <div class="col-md-3 col-12">#}
+                                            {#                                                <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><div style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-size: cover; background-position: center; height: 150px"></div></a>#}
+                                            {#                                            </div>#}
                                             <div class="col-md-12 col-12">
                                                 <div class="thumb-text" style="margin-top: 50px;">
                                                     <a href="/{{ language }}/p/{{ post.slug|getAttribute(language) }}.html"><h4>{{ post.data.title|getAttribute(language) }}</h4></a>
