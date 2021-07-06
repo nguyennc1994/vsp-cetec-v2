@@ -28,7 +28,7 @@
                     <div class="col-md-4">
                         <div class="side-bar">
                             <div class="sidebar-widget">
-                                <h4>Giới thiệu</h4>
+                                <h4>Tuyển dụng</h4>
                                 <div class="line-dec"></div>
                                 <div class="latest-item">
                                     <div class="right-content">
