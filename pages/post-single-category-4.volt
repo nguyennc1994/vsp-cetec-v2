@@ -86,5 +86,22 @@
         </div>
     </div>
 </section>
-
+<script>
+    var swiper2 = new Swiper(".mySwiper2", {
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        autoHeight: true,
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+            swiper: swiper,
+        },
+    });
+</script>
 {% endblock %}
