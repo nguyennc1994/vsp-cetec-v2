@@ -3,52 +3,41 @@
         <div class="content">
             <nav class="responsive-menu">
                 <ul>
-                    <li class="menu-item-has-children"><a href="#">Home</a>
+                    <li><a href="/" class="">Home</a>
+                    </li>
+                    <li class=""><a href="#">Giới thiệu</a>
                         <ul class="sub-menu">
-                            <li><a href="index.html">Homepage 1</a></li>
-                            <li><a href="homepage-2.html">Homepage 2</a></li>
-                            <li><a href="homepage-3.html">Homepage 3</a></li>
-                            <li><a href="homepage-4.html">Homepage 4</a></li>
-                            <li><a href="homepage-5.html">Homepage 5</a></li>
+                            <li><a href="/{{ language }}/p/tong-quan.html">Tổng quan</a></li>
+                            <li><a href="/{{ language }}/p/to-chuc-cong-ty.html">Cơ cấu tổ chức và nhân sự</a></li>
+                            <li><a href="/{{ language }}/c/category-11/hoatdong-p1.html">Hoạt động công ty</a></li>
+                            <li><a href="/{{ language }}/c/category-13/kh-p1.html">Khách hàng và đối tác</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"><a href="#">Pages</a>
+                    <li class="menu-item-has-children"><a href="#">Lĩnh vực hoạt động</a>
                         <ul class="sub-menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="contact.html">Contact Us</a></li>
-                            <li><a href="404.html">404 Error Page</a></li>
-                            <li><a href="coming.html">Coming Soon</a></li>
+                            <li><a href="/{{ language }}/p/xay-dung-cong-trinh-dan-dung.html">Xây dựng công trình dân
+                                    dụng</a></li>
+                            <li><a href="/{{ language }}/p/xay-dung-cong-trinh-cong-nghiep.html">Xây dựng công trình
+                                    công nghiệp</a></li>
+                            <li><a href="/{{ language }}/p/thiet-ke-lap-dat.html">Thiết kế, lắp đặt hệ thống cơ điện -
+                                    Phòng cháy chữa cháy</a>
+                            </li>
+                            <li><a href="/{{ language }}/p/tu-van-thiet-ke.html">Tư vấn thiết ka href="/{{ language
+                                    }}/p/thiet-ke-lap-dat.html"ế</a></li>
+                            <li><a href="/{{ language }}/p/thuong-mai-thiet-bi.html">Thương mại - Thiết bị</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"><a href="#">Our Services</a>
+                    <li><a href="/{{ language }}/c/category-4/congtrinh-p1.html" class="">Công trình</a>
+                    </li>
+                    <li><a href="/{{ language }}/c/category-6/tintuc-p1.html" class="">Tin tức</a>
+                    </li>
+                    <li class="menu-item-has-children"><a href="#">Tuyển dụng</a>
                         <ul class="sub-menu">
-                            <li><a href="services-listing.html">Services Listing</a></li>
-                            <li><a href="construction.html">Construction</a></li>
-                            <li><a href="isolation.html">Isolation</a></li>
-                            <li><a href="renovation.html">Renovation</a></li>
-                            <li><a href="electric-welding.html">Electric Welding</a></li>
-                            <li><a href="sawn-stone.html">Sawn Stone</a></li>
+                            <li><a href="/{{ language }}/p/chinh-sach-nhan-su.html">Chính sách nhân sự</a></li>
+                            <li><a href="/{{ language }}/c/category-15/tuyen-dung-p1.html">Cơ hội nghề nghiệp</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children"><a href="#">Our Projects</a>
-                        <ul class="sub-menu">
-                            <li><a href="projects.html">Projects Listing</a></li>
-                            <li><a href="projects-3-grids.html">3 Columns Grids</a></li>
-                            <li><a href="projects-3-full.html">3 Columns Full</a></li>
-                            <li><a href="projects-4-grids.html">4 Columns Grids</a></li>
-                            <li><a href="projects-4-full.html">4 Columns Full</a></li>
-                            <li><a href="single-project.html">Single Project</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children"><a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog-right.html">Blog Classic</a></li>
-                            <li><a href="blog-grid.html">Blog Grids</a></li>
-                            <li><a href="grid-right.html">Grids Sidebar</a></li>
-                            <li><a href="single-blog.html">Single Post</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="/{{ language }}/contact-us.html">Liên hệ</a></li>
                 </ul>
             </nav>
         </div>
