@@ -6,21 +6,21 @@
                     <ul>
                         <li><i class="fa fa-phone"></i>039 304 8288</li>
                         <li><i class="fa fa-envelope-o"></i>contact@cetec.vn</li>
-{#                        <li><i class="fa fa-clock-o"></i>Mon - Sat : 08:00 - 18:00</li>#}
+                        {# <li><i class="fa fa-clock-o"></i>Mon - Sat : 08:00 - 18:00</li>#}
                     </ul>
                 </div>
             </div>
-{#            <div class="col-md-6">#}
-{#                <div class="social-icons">#}
-{#                    <ul>#}
-{#                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
-{#                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
-{#                        <li><a href="#"><i class="fa fa-behance"></i></a></li>#}
-{#                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
-{#                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>#}
-{#                    </ul>#}
-{#                </div>#}
-{#            </div>#}
+            {# <div class="col-md-6">#}
+                {# <div class="social-icons">#}
+                    {# <ul>#}
+                        {# <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+                        {# <li><a href="#"><i class="fa fa-twitter"></i></a></li>#}
+                        {# <li><a href="#"><i class="fa fa-behance"></i></a></li>#}
+                        {# <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+                        {# <li><a href="#"><i class="fa fa-dribbble"></i></a></li>#}
+                        {# </ul>#}
+                    {# </div>#}
+                {# </div>#}
         </div>
     </div>
 </div>
@@ -37,13 +37,6 @@
             <nav class="main-navigation text-right hidden-xs hidden-sm">
                 <ul>
                     <li><a href="/" class="">Home</a>
-                        {# <ul class="sub-menu"> #}
-                        {# <li><a href="index.html">Homepage 1</a></li> #}
-                        {# <li><a href="homepage-2.html">Homepage 2</a></li> #}
-                        {# <li><a href="homepage-3.html">Homepage 3</a></li> #}
-                        {# <li><a href="homepage-4.html">Homepage 4</a></li> #}
-                        {# <li><a href="homepage-5.html">Homepage 5</a></li> #}
-                        {# </ul> #}
                     </li>
                     <li><a href="#" class="has-submenu">Giới thiệu</a>
                         <ul class="sub-menu" style="width: 200px">
@@ -55,11 +48,15 @@
                     </li>
                     <li><a href="#" class="has-submenu">Lĩnh vực hoạt động</a>
                         <ul class="sub-menu" style="width: 450px">
-                            <li><a href="/{{ language }}/p/xay-dung-cong-trinh-dan-dung.html">Xây dựng công trình dân dụng</a></li>
-                            <li><a href="/{{ language }}/p/xay-dung-cong-trinh-cong-nghiep.html">Xây dựng công trình công nghiệp</a></li>
-                            <li><a href="/{{ language }}/p/thiet-ke-lap-dat.html">Thiết kế, lắp đặt hệ thống cơ điện - Phòng cháy chữa cháy</a>
+                            <li><a href="/{{ language }}/p/xay-dung-cong-trinh-dan-dung.html">Xây dựng công trình dân
+                                    dụng</a></li>
+                            <li><a href="/{{ language }}/p/xay-dung-cong-trinh-cong-nghiep.html">Xây dựng công trình
+                                    công nghiệp</a></li>
+                            <li><a href="/{{ language }}/p/thiet-ke-lap-dat.html">Thiết kế, lắp đặt hệ thống cơ điện -
+                                    Phòng cháy chữa cháy</a>
                             </li>
-                            <li><a href="/{{ language }}/p/tu-van-thiet-ke.html">Tư vấn thiết ka href="/{{ language }}/p/thiet-ke-lap-dat.html"ế</a></li>
+                            <li><a href="/{{ language }}/p/tu-van-thiet-ke.html">Tư vấn thiết ka href="/{{ language
+                                    }}/p/thiet-ke-lap-dat.html"ế</a></li>
                             <li><a href="/{{ language }}/p/thuong-mai-thiet-bi.html">Thương mại - Thiết bị</a></li>
                         </ul>
                     </li>
@@ -74,17 +71,19 @@
                         </ul>
                     </li>
                     <li><a href="/{{ language }}/contact-us.html">Liên hệ</a></li>
-                         <li>
-                         <p><a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;"><i class="fa fa-search"></i></a></p>
-                         <div id="example" class="more">
-                         <form method="get" id="blog-search" class="blog-search">
-                         <input type="text" class="blog-search-field" name="s" placeholder="Type to search" value="">
-                         </form>
-                         <p><a href="#" id="example-hide" class="hideLink"
-                         onclick="showHide('example');return false;"><i class="
+                    <li>
+                        <p><a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;"><i
+                                    class="fa fa-search"></i></a></p>
+                        <div id="example" class="more">
+                            <form method="get" id="blog-search" class="blog-search">
+                                <input type="text" class="blog-search-field" name="s" placeholder="Type to search"
+                                    value="">
+                            </form>
+                            <p><a href="#" id="example-hide" class="hideLink"
+                                    onclick="showHide('example');return false;"><i class="
                          fa fa-close"></i></a></p>
-                         </div>
-                         </li>
+                        </div>
+                    </li>
                 </ul>
             </nav>
         </div>

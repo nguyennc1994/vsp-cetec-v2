@@ -49,7 +49,7 @@
                 {{ partial('partials/footer') }}
             </div>
         </div>
-        <!-- {{ partial('partials/sub-footer') }} -->
+        {{ partial('partials/sub-footer') }}
     </div>
     {{ widget_js }}
 

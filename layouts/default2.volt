@@ -14,7 +14,7 @@
     <!-- CSS
    ============================================ -->
 
-     <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ theme_path }}/assets/css/vendor/bootstrap.min.css">
 
     <!-- FontAwesome CSS -->
@@ -49,14 +49,15 @@
     {{ partial('partials/header') }}
     <!-- -->
 
-     {% block content %}
+    {% block content %}
 
-     {% endblock %}
-        
+    {% endblock %}
+
     <!-- -->
-    {{  partial('partials/footer') }}
+    {{ partial('partials/footer') }}
 
     {{ widget_js }}
-   
+
 </body>
+
 </html>
