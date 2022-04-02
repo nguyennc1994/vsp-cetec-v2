@@ -2156,6 +2156,7 @@ section.full-width .section-heading .line-dec {
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 1px;
+  text-shadow: 2px 2px 2px #000;
 }
 #page-heading span {
   font-family: "Gerogia", serif;

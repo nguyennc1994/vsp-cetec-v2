@@ -1,12 +1,12 @@
 {% extends 'layouts/default.volt' %}
 {% block content %}
 
-<div id="page-heading"
-    style="background-image: url('http://cetec.vn{{ post.data.image[0].url }}'); background-position: center; background-size: cover; height: 400px">
+<div id="page-heading" style="background-image: url('http://cetec.vn/content/uploads/cms/2021/06/28/funfact-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <h1>{{ post.data.title | getAttribute(language) }}</h1>
+                {# <span>Post-ironic scenester four dollar toast</span>#}
             </div>
         </div>
     </div>
@@ -57,15 +57,16 @@
                                     <div class="swiper-wrapper">
                                         {% for image in post.data.image %}
                                         <div class="swiper-slide" style="background-color: #ffffff;">
-                                            <div
+                                            <!-- <div
                                                 style="width: 100%; height: 555px; background-image: url('http://cetec.vn{{ image.url }}'); background-size: contain; background-repeat: no-repeat; background-position: center;">
-                                            </div>
-                                            {# <img src="http://nhathongminhlumi.net.vn{{ image.url }}" />#}
+                                            </div> -->
+                                            <img src="http://cetec.vn{{ image.url }}" />
                                         </div>
                                         {% endfor %}
                                     </div>
                                     <div class="swiper-button-next"></div>
                                     <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
                                 </div>
                                 <p>{{ post.data.detail | getAttribute(language) }}</p>
                             </div>
@@ -98,6 +99,10 @@
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
         },
         thumbs: {
             swiper: swiper,
