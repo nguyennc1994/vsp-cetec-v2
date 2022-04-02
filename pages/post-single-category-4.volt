@@ -61,6 +61,7 @@
                                                 style="width: 100%; height: 555px; background-image: url('http://cetec.vn{{ image.url }}'); background-size: contain; background-repeat: no-repeat; background-position: center;">
                                             </div> -->
                                             <img src="http://cetec.vn{{ image.url }}" />
+                                            <br>
                                         </div>
                                         {% endfor %}
                                     </div>
