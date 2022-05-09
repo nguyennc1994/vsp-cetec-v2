@@ -63,7 +63,7 @@
                     </li>
                     <li><a href="/{{ language }}/c/category-6/tintuc-p1.html" class="">Tin tức</a>
                     </li>
-                    <li><a href="#">Tuyển dụng</a>
+                    <li><a href="#" class="has-submenu">Tuyển dụng</a>
                         <ul class="sub-menu">
                             <li><a href="/{{ language }}/p/chinh-sach-nhan-su.html">Chính sách nhân sự</a></li>
                             <li><a href="/{{ language }}/c/category-15/tuyen-dung-p1.html">Cơ hội nghề nghiệp</a></li>
