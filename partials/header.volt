@@ -55,8 +55,7 @@
                             <li><a href="/{{ language }}/p/thiet-ke-lap-dat.html">Thiết kế, lắp đặt hệ thống cơ điện -
                                     Phòng cháy chữa cháy</a>
                             </li>
-                            <li><a href="/{{ language }}/p/tu-van-thiet-ke.html">Tư vấn thiết ka href="/{{ language
-                                    }}/p/thiet-ke-lap-dat.html"ế</a></li>
+                            <li><a href="/{{ language }}/p/tu-van-thiet-ke.html">Tư vấn thiết kế</a></li>
                             <li><a href="/{{ language }}/p/thuong-mai-thiet-bi.html">Thương mại - Thiết bị</a></li>
                         </ul>
                     </li>

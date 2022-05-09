@@ -678,7 +678,7 @@ nav.main-navigation ul li ul.sub-menu li a {
   color: #ffffff;
   font-size: 11px;
   font-weight: 400;
-  padding: 5px 22px;
+  padding: 10px;
 }
 nav.main-navigation ul li ul.sub-menu li a:hover {
   color: #e8aa00;
