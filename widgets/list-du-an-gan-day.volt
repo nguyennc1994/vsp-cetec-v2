@@ -8,7 +8,7 @@
             </div>
         </a>
         <div style="position: absolute; bottom: 0; padding: 10px;background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 30.62%, #000000 100%);
-        ; color: #fff">
+        ; color: #fff; width: 100%; text-align: left;">
             <h4>{{ item.data.title|getAttribute(language) }}</h4>
             <p>{{ item.data.desc|getAttribute(language)|striptags }}</p>
         </div>
