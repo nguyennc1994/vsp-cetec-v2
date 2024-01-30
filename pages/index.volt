@@ -105,19 +105,21 @@
 <section class="recent-projects">
     <div class="container">
         <div class="row">
-            <div class="section-heading col-md-6">
+            <div class="section-heading text-center">
                 <h2>Dự án nổi bật</h2>
                 <div class="line-dec"></div>
             </div>
         </div>
-        <div class="row">
+        {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':12],['viewsDir':
+        widgets_volt,'view':'list-linhvuc']) }}
+        <!-- <div class="row">
             <div class="projects">
                 <div id="owl-recent">
                     {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':10],['viewsDir':
                     widgets_volt,'view':'list-duannb']) }}
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>
 

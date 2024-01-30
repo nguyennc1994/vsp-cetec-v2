@@ -41,9 +41,10 @@
                     <li><a href="#" class="has-submenu">Giới thiệu</a>
                         <ul class="sub-menu" style="width: 200px">
                             <li><a href="/{{ language }}/p/tong-quan.html">Tổng quan</a></li>
-                            <li><a href="/{{ language }}/p/to-chuc-cong-ty.html">Cơ cấu tổ chức và nhân sự</a></li>
-                            <li><a href="/{{ language }}/c/category-11/hoatdong-p1.html">Hoạt động công ty</a></li>
+                            <li><a href="/{{ language }}/p/to-chuc-cong-ty.html">Cơ cấu tổ chức</a></li>
+                            <!-- <li><a href="/{{ language }}/c/category-11/hoatdong-p1.html">Hoạt động công ty</a></li> -->
                             <li><a href="/{{ language }}/c/category-13/kh-p1.html">Khách hàng và đối tác</a></li>
+                            <li><a href="#">Công nghệ & Thiết bị</a></li>
                         </ul>
                     </li>
                     <li><a href="#" class="has-submenu">Lĩnh vực hoạt động</a>

@@ -899,7 +899,8 @@ nav.responsive-menu a {
   }
 }
 footer {
-  background-image: url(../images/footer-bg.jpg);
+  /* background-image: url(../images/footer-bg.jpg); */
+  background-color: #1e73be;
   padding: 70px 0px;
 }
 footer h2 {
@@ -921,18 +922,18 @@ footer .company-pages ul {
   display: inline-block;
 }
 footer .company-pages ul li {
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 6px;
+  margin-bottom: 6px;
   border-bottom: 1px dashed #4a4a4a;
   width: 100%;
 }
 footer .company-pages ul li a {
-  color: #afafaf;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
 }
 footer .company-pages ul li i {
-  color: #afafaf;
+  color: #fff;
   margin-right: 10px;
 }
 footer .company-pages ul li:hover a {
@@ -1729,9 +1730,9 @@ footer .subscribe-us .accent-button {
   border: 2px solid #e5e5e5;
 }
 .recent-projects {
-  background-image: url(../images/recent-bg.jpg);
+  /* background-image: url(../images/recent-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   text-align: center;
 }
 .recent-projects .section-heading {
@@ -1752,7 +1753,8 @@ footer .subscribe-us .accent-button {
   }
 }
 .recent-projects .section-heading h2 {
-  color: #ffffff;
+  color: #000;
+  text-align: center;
 }
 .recent-projects .group {
   margin-top: -40px;
@@ -2123,6 +2125,14 @@ section.full-width .section-heading .line-dec {
   width: 45px;
   height: 2px;
   background-color: #e8aa00;
+}
+.recent-projects .section-heading .line-dec {
+  width: 45px;
+  height: 2px;
+  background-color: #e8aa00;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .section-heading-2 h2 {
   text-align: left;
