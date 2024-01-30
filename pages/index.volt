@@ -105,13 +105,13 @@
 <section class="recent-projects">
     <div class="container">
         <div class="row">
-            <div class="section-heading text-center">
+            <div class="section-heading text-center ">
                 <h2>Dự án nổi bật</h2>
                 <div class="line-dec"></div>
             </div>
         </div>
         {{ render_widget('post-listing',['catalog':'category','category':[4],'limit':12],['viewsDir':
-        widgets_volt,'view':'list-linhvuc']) }}
+        widgets_volt,'view':'list-du-an-gan-day']) }}
         <!-- <div class="row">
             <div class="projects">
                 <div id="owl-recent">

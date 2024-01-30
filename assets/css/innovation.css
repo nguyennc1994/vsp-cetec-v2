@@ -1737,6 +1737,7 @@ footer .subscribe-us .accent-button {
 }
 .recent-projects .section-heading {
   text-align: left;
+  margin-bottom: 40px;
 }
 @media (max-width: 991px) {
   .recent-projects .section-heading {
