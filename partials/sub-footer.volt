@@ -9,8 +9,9 @@
                         <ul class="sub-menu">
                             <li><a href="/{{ language }}/p/tong-quan.html">Tổng quan</a></li>
                             <li><a href="/{{ language }}/p/to-chuc-cong-ty.html">Cơ cấu tổ chức và nhân sự</a></li>
-                            <li><a href="/{{ language }}/c/category-11/hoatdong-p1.html">Hoạt động công ty</a></li>
+                            <!-- <li><a href="/{{ language }}/c/category-11/hoatdong-p1.html">Hoạt động công ty</a></li> -->
                             <li><a href="/{{ language }}/c/category-13/kh-p1.html">Khách hàng và đối tác</a></li>
+                            <li><a href="#">Công nghệ & Thiết bị</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children"><a href="#">Lĩnh vực hoạt động</a>
@@ -22,8 +23,7 @@
                             <li><a href="/{{ language }}/p/thiet-ke-lap-dat.html">Thiết kế, lắp đặt hệ thống cơ điện -
                                     Phòng cháy chữa cháy</a>
                             </li>
-                            <li><a href="/{{ language }}/p/tu-van-thiet-ke.html">Tư vấn thiết ka href="/{{ language
-                                    }}/p/thiet-ke-lap-dat.html"ế</a></li>
+                            <li><a href="/{{ language }}/p/tu-van-thiet-ke.html">Tư vấn thiết kế</a></li>
                             <li><a href="/{{ language }}/p/thuong-mai-thiet-bi.html">Thương mại - Thiết bị</a></li>
                         </ul>
                     </li>
