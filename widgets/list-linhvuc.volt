@@ -23,7 +23,7 @@
             <a href="/{{ language }}/p/{{ item.slug|getAttribute(language) }}.html">Xem thêm</a>
         </div>
         <div class="col-md-6 col-sm-12 col-12"
-            style="padding-top: 62.25%; background-image: url({{item.data.image[0].url}}); background-size: cover; background-position: center">
+            style="padding-top: 31.1%; background-image: url({{item.data.image[0].url}}); background-size: cover; background-position: center">
         </div>
     </div>
 </div>
