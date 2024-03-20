@@ -14,7 +14,7 @@
         </div>
 
     </div>
-    <div class="row service-item" ng-else>
+    <!-- <div class="row service-item" ng-else>
         <div class="col-md-6 col-sm-12 col-12">
             <a href="/{{ language }}/p/{{ item.slug|getAttribute(language) }}.html">
                 <h4>{{ item.data.title|getAttribute(language) }}</h4>
@@ -25,8 +25,6 @@
         <div class="col-md-6 col-sm-12 col-12"
             style="padding-top: 62.25%; background-image: url({{item.data.image[0].url}}); background-size: cover; background-position: center">
         </div>
-
-
-    </div>
+    </div> -->
 </div>
 {% endfor %}
