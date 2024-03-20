@@ -16,7 +16,7 @@
 
     </div>
     {% else %}
-    <div class="row service-item" ng-else>
+    <div class="row service-item">
         <div class="col-md-6 col-sm-12 col-12">
             <a href="/{{ language }}/p/{{ item.slug|getAttribute(language) }}.html">
                 <h4>{{ item.data.title|getAttribute(language) }}</h4>
