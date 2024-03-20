@@ -8,10 +8,10 @@
                 <li class="first-slide" data-transition="fade" data-slotamount="10" data-masterspeed="300">
                     <img src="{{ theme_path }}/assets/images/slider/slider3.jpg" data-fullwidthcentering="on"
                         alt="slide">
-                    <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="180"
+                    <!-- <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="180"
                         data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none"
                         data-splitout="none" data-elementdelay="0" data-endelementdelay="0">An toàn - Chất lượng - Tiến
-                        độ</div>
+                        độ</div> -->
                     {# <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0"
                         data-y="340" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none"
                         data-splitout="none" data-elementdelay="0" data-endelementdelay="0">
@@ -30,10 +30,10 @@
                 <li class="first-slide" data-transition="fade" data-slotamount="10" data-masterspeed="300">
                     <img src="{{ theme_path }}/assets/images/slider/slider2.jpg" data-fullwidthcentering="on"
                         alt="slide">
-                    <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="180"
+                    <!-- <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="180"
                         data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none"
                         data-splitout="none" data-elementdelay="0" data-endelementdelay="0">An toàn - Chất lượng - Tiến
-                        độ</div>
+                        độ</div> -->
                     {# <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0"
                         data-y="340" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none"
                         data-splitout="none" data-elementdelay="0" data-endelementdelay="0">
@@ -53,10 +53,10 @@
                 <li class="first-slide" data-transition="fade" data-slotamount="10" data-masterspeed="300">
                     <img src="{{ theme_path }}/assets/images/slider/slider1.jpg" data-fullwidthcentering="on"
                         alt="slide">
-                    <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="180"
+                    <!-- <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0" data-y="180"
                         data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none"
                         data-splitout="none" data-elementdelay="0" data-endelementdelay="0">An toàn - Chất lượng - Tiến
-                        độ</div>
+                        độ</div> -->
                     {# <div class="tp-caption first-line lft tp-resizeme start" data-x="left" data-hoffset="0"
                         data-y="340" data-speed="1000" data-start="200" data-easing="Power4.easeOut" data-splitin="none"
                         data-splitout="none" data-elementdelay="0" data-endelementdelay="0">
@@ -78,7 +78,7 @@
     </div>
 </div>
 
-<div id="cta-1">
+<!-- <div id="cta-1">
     <div class="container">
         <div class="row">
             <div class="col-md-10 col-md-offset-1">
@@ -93,7 +93,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <section class="services">
     <div class="container">

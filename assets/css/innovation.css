@@ -39,6 +39,9 @@ html ::selection {
   color: #ffffff;
   background: #e8aa00;
 }
+* {
+  scroll-behavior: smooth;
+}
 body.homepage-5 {
   padding: 30px;
   background-image: url(../images/body-bg.png);
