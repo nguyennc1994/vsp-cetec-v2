@@ -25,18 +25,11 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="sidebar">
-                    <h3 class="sidebar-title">Lĩnh vực hoạt động</h3>
-                    <ol class="sidebar-list">
-                        {{ render_widget('post-listing',['catalog':'category','category':[2],'limit':10],['viewsDir':
-                        widgets_volt,'view':'list-leftlinhvuc']) }}
-                    </ol>
+        <div class="sidebar">
+            <h3 class="sidebar-title">Lĩnh vực hoạt động</h3>
+            {{ render_widget('post-listing',['catalog':'category','category':[2],'limit':10],['viewsDir':
+            widgets_volt,'view':'list-leftlinhvuc']) }}
 
-                </div>
-
-            </div>
         </div>
 
         {% endblock %}
