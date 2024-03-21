@@ -67,7 +67,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
   line-height: 26px;
-  color: #888888;
+  color: #111111;
 }
 #sub-header {
   width: 100%;
@@ -259,6 +259,9 @@ p {
 .site-header .main-header .logo {
   float: left;
   line-height: 110px;
+}
+.site-header .main-header .logo img {
+  width: 60%;
 }
 .site-header-2 {
   background-color: transparent;
@@ -699,7 +702,8 @@ nav.main-navigation ul li:hover ul.sub-menu {
   transform: translate3d(0, 0, 0);
 }
 nav.main-navigation ul a {
-  font-size: 12px;
+  font-size: 14px;
+  /* font-size: 12px; */
   font-weight: bold;
   color: #373636;
   text-transform: uppercase;
