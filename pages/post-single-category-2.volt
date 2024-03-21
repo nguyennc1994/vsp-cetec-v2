@@ -31,5 +31,7 @@
             widgets_volt,'view':'list-leftlinhvuc']) }}
 
         </div>
+    </div>
+</section>
 
-        {% endblock %}
+{% endblock %}
