@@ -1,6 +1,6 @@
 {% set item = items[0] %}
 
-<div class="swiper" id="lich-vuc-slide">
+<div class="swiper" id="lich-vuc-slide" style="min-height: 300px">
     <div class="swiper-wrapper ">
         {% for index, item in items %}
 
