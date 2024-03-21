@@ -26,14 +26,9 @@
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
     var swiper1 = new Swiper("#lich-vuc-slide", {
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        pagination: {
-            el: ".swiper-pagination",
-        },
         loop: true,
+        slidesPerView: 3,
+        spaceBetween: 30,
         autoplay: {
             delay: 5000,
         },
